@@ -1,7 +1,4 @@
 
-console.log('this is client side java script code')
-
-
 const weatherForm   = document.querySelector('form')
 const serach        = document.querySelector('input')
 const message1      = document.querySelector('#message-1')
