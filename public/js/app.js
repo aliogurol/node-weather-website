@@ -20,6 +20,7 @@ weatherForm.addEventListener('submit',(e)=>{
                 const weatherObject     =   data.forecast
                 message1.textContent    =   data.location
                 message2.textContent    =   'Description: '     +   weatherObject.weather_descriptions + 
+                                            ' , Temperature: '  +   weatherObject.temperature +
                                             ' , Humidity: '     +   weatherObject.humidity +
                                             ' , Feelslike: '    +   weatherObject.feelslike
             }
